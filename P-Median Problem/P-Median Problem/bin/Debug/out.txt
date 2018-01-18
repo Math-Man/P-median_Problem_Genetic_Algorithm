@@ -1,0 +1,582 @@
+Initilizing with 51 nodes, 3 facilities.
+Iteration: 1 NodeCount: 20 FacilityCount: 3 BestFitness: 9995.62377028328
+   ↳ CrossOver Between: 11956 | 12837 | Child: 12837
+   ↳ CrossOver Between: 13842 | 12837 | Child: 13013
+   ↳ CrossOver Between: 9995 | 12328 | Child: 12709
+   ↳ CrossOver Between: 14665 | 11956 | Child: 15878
+   ↳ CrossOver Between: 11313 | 11396 | Child: 12349
+      ↳ Mutation: 12349 -> 11580 | (x,y) => (32,39) -> (17,33)
+   ↳ CrossOver Between: 13710 | 12349 | Child: 14057
+   ↳ CrossOver Between: 13753 | 15826 | Child: 12243
+   ↳ CrossOver Between: 13710 | 11956 | Child: 13465
+   ↳ CrossOver Between: 11396 | 13842 | Child: 10244
+   ↳ CrossOver Between: 12349 | 13817 | Child: 12875
+   ↳ CrossOver Between: 9995 | 11396 | Child: 10920
+   ↳ CrossOver Between: 11956 | 13817 | Child: 11284
+   ↳ CrossOver Between: 10508 | 14665 | Child: 14657
+      ↳ Mutation: 14657 -> 11463 | (x,y) => (48,28) -> (17,33)
+   ↳ CrossOver Between: 12692 | 17987 | Child: 11763
+      ↳ Mutation: 11763 -> 12474 | (x,y) => (61,33) -> (17,33)
+   ↳ CrossOver Between: 12349 | 15826 | Child: 12372
+   ↳ CrossOver Between: 12837 | 9995 | Child: 11712
+   ↳ CrossOver Between: 11072 | 12162 | Child: 12001
+   ↳ CrossOver Between: 13817 | 11956 | Child: 13523
+   ↳ CrossOver Between: 12837 | 11313 | Child: 11958
+   ↳ CrossOver Between: 12349 | 13710 | Child: 12905
+⟿Time elapsed this generation: 11ms
+Iteration: 2 NodeCount: 20 FacilityCount: 3 BestFitness: 10244.5551514279
+   ↳ CrossOver Between: 11712 | 10244 | Child: 11712
+   ↳ CrossOver Between: 12709 | 12875 | Child: 12709
+      ↳ Mutation: 12709 -> 12541 | (x,y) => (17,33) -> (16,57)
+   ↳ CrossOver Between: 12001 | 11712 | Child: 12001
+   ↳ CrossOver Between: 10244 | 15878 | Child: 10244
+   ↳ CrossOver Between: 12837 | 11958 | Child: 12837
+   ↳ CrossOver Between: 12001 | 14057 | Child: 12001
+   ↳ CrossOver Between: 11580 | 11463 | Child: 11580
+   ↳ CrossOver Between: 11284 | 14057 | Child: 11284
+   ↳ CrossOver Between: 14057 | 12709 | Child: 14057
+   ↳ CrossOver Between: 13013 | 12709 | Child: 13013
+   ↳ CrossOver Between: 12837 | 11958 | Child: 12837
+   ↳ CrossOver Between: 12001 | 12905 | Child: 12001
+   ↳ CrossOver Between: 12875 | 12905 | Child: 12875
+   ↳ CrossOver Between: 11580 | 13523 | Child: 11580
+   ↳ CrossOver Between: 11284 | 12474 | Child: 11284
+   ↳ CrossOver Between: 11463 | 12372 | Child: 11463
+   ↳ CrossOver Between: 12474 | 11284 | Child: 12474
+   ↳ CrossOver Between: 11958 | 12875 | Child: 11958
+   ↳ CrossOver Between: 11712 | 11958 | Child: 11712
+   ↳ CrossOver Between: 12875 | 11463 | Child: 12875
+⟿Time elapsed this generation: 12ms
+Iteration: 3 NodeCount: 20 FacilityCount: 3 BestFitness: 10244.5551514279
+   ↳ CrossOver Between: 12837 | 11712 | Child: 14778
+   ↳ CrossOver Between: 11580 | 11712 | Child: 14199
+   ↳ CrossOver Between: 11580 | 11463 | Child: 10401
+   ↳ CrossOver Between: 12001 | 11284 | Child: 10272
+   ↳ CrossOver Between: 12875 | 12001 | Child: 13252
+   ↳ CrossOver Between: 11580 | 11580 | Child: 11580
+   ↳ CrossOver Between: 12541 | 12001 | Child: 12422
+   ↳ CrossOver Between: 11284 | 12875 | Child: 11284
+   ↳ CrossOver Between: 10244 | 12837 | Child: 14023
+   ↳ CrossOver Between: 12001 | 11463 | Child: 11956
+   ↳ CrossOver Between: 11712 | 12001 | Child: 10266
+   ↳ CrossOver Between: 11580 | 14057 | Child: 14403
+   ↳ CrossOver Between: 11284 | 11712 | Child: 11769
+   ↳ CrossOver Between: 12474 | 11463 | Child: 11487
+   ↳ CrossOver Between: 14057 | 12837 | Child: 12837
+   ↳ CrossOver Between: 14057 | 11284 | Child: 11210
+   ↳ CrossOver Between: 12001 | 11463 | Child: 11956
+   ↳ CrossOver Between: 11712 | 11712 | Child: 11712
+      ↳ Mutation: 11712 -> 10987 | (x,y) => (13,13) -> (43,67)
+   ↳ CrossOver Between: 11712 | 11284 | Child: 11529
+   ↳ CrossOver Between: 10244 | 12837 | Child: 14023
+⟿Time elapsed this generation: 11ms
+Iteration: 4 NodeCount: 20 FacilityCount: 3 BestFitness: 10266.8198784729
+   ↳ CrossOver Between: 14023 | 10272 | Child: 10888
+   ↳ CrossOver Between: 10987 | 10266 | Child: 11712
+   ↳ CrossOver Between: 11769 | 10401 | Child: 12133
+   ↳ CrossOver Between: 12422 | 10272 | Child: 12445
+   ↳ CrossOver Between: 10401 | 11580 | Child: 11580
+   ↳ CrossOver Between: 10272 | 11769 | Child: 10899
+   ↳ CrossOver Between: 13252 | 10987 | Child: 14476
+      ↳ Mutation: 14476 -> 12881 | (x,y) => (43,67) -> (46,10)
+   ↳ CrossOver Between: 10266 | 11769 | Child: 10888
+   ↳ CrossOver Between: 11529 | 10401 | Child: 11210
+   ↳ CrossOver Between: 10272 | 14403 | Child: 12410
+   ↳ CrossOver Between: 14023 | 10401 | Child: 9972
+   ↳ CrossOver Between: 10272 | 12837 | Child: 12056
+      ↳ Mutation: 12056 -> 12358 | (x,y) => (32,22) -> (46,10)
+   ↳ CrossOver Between: 11769 | 10987 | Child: 14476
+   ↳ CrossOver Between: 11769 | 14403 | Child: 15213
+   ↳ CrossOver Between: 11284 | 10987 | Child: 10987
+   ↳ CrossOver Between: 14023 | 11956 | Child: 12537
+   ↳ CrossOver Between: 14199 | 10401 | Child: 9972
+   ↳ CrossOver Between: 14023 | 14199 | Child: 14199
+   ↳ CrossOver Between: 12837 | 10401 | Child: 9795
+   ↳ CrossOver Between: 11210 | 11487 | Child: 10813
+⟿Time elapsed this generation: 12ms
+Iteration: 5 NodeCount: 20 FacilityCount: 3 BestFitness: 9795.17540350958
+   ↳ CrossOver Between: 11580 | 10888 | Child: 11580
+   ↳ CrossOver Between: 12537 | 12881 | Child: 11785
+   ↳ CrossOver Between: 14476 | 12410 | Child: 10668
+   ↳ CrossOver Between: 10899 | 10888 | Child: 10888
+   ↳ CrossOver Between: 15213 | 9972 | Child: 14199
+   ↳ CrossOver Between: 10888 | 14199 | Child: 11515
+   ↳ CrossOver Between: 14476 | 10888 | Child: 13400
+   ↳ CrossOver Between: 12410 | 9972 | Child: 14199
+   ↳ CrossOver Between: 11580 | 10899 | Child: 12410
+   ↳ CrossOver Between: 9972 | 9972 | Child: 9972
+   ↳ CrossOver Between: 10899 | 12445 | Child: 10641
+   ↳ CrossOver Between: 9972 | 9972 | Child: 9972
+   ↳ CrossOver Between: 10888 | 11580 | Child: 10888
+   ↳ CrossOver Between: 9972 | 9972 | Child: 9972
+   ↳ CrossOver Between: 9972 | 11580 | Child: 11210
+   ↳ CrossOver Between: 10987 | 14476 | Child: 14476
+   ↳ CrossOver Between: 11712 | 9972 | Child: 9825
+   ↳ CrossOver Between: 11580 | 9795 | Child: 12919
+   ↳ CrossOver Between: 11712 | 9972 | Child: 9825
+   ↳ CrossOver Between: 9972 | 9795 | Child: 9795
+⟿Time elapsed this generation: 10ms
+Iteration: 6 NodeCount: 20 FacilityCount: 3 BestFitness: 9795.17540350958
+   ↳ CrossOver Between: 11580 | 9972 | Child: 14199
+   ↳ CrossOver Between: 10888 | 9972 | Child: 12537
+   ↳ CrossOver Between: 10668 | 14199 | Child: 11781
+   ↳ CrossOver Between: 11515 | 13400 | Child: 11196
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11580 | 11210 | Child: 11580
+   ↳ CrossOver Between: 12919 | 10641 | Child: 11580
+   ↳ CrossOver Between: 10888 | 14199 | Child: 11515
+   ↳ CrossOver Between: 9825 | 14476 | Child: 11785
+   ↳ CrossOver Between: 9972 | 11515 | Child: 11053
+   ↳ CrossOver Between: 10668 | 14199 | Child: 11781
+   ↳ CrossOver Between: 9825 | 10888 | Child: 10452
+   ↳ CrossOver Between: 12410 | 9825 | Child: 13066
+   ↳ CrossOver Between: 14476 | 12919 | Child: 10987
+   ↳ CrossOver Between: 9825 | 13400 | Child: 10452
+   ↳ CrossOver Between: 11515 | 11580 | Child: 11196
+   ↳ CrossOver Between: 10668 | 11210 | Child: 13400
+   ↳ CrossOver Between: 9825 | 10641 | Child: 10452
+   ↳ CrossOver Between: 11515 | 11210 | Child: 11196
+   ↳ CrossOver Between: 9972 | 10668 | Child: 9841
+⟿Time elapsed this generation: 10ms
+Iteration: 7 NodeCount: 20 FacilityCount: 3 BestFitness: 9825.35517094298
+   ↳ CrossOver Between: 11053 | 9825 | Child: 11327
+   ↳ CrossOver Between: 11781 | 11785 | Child: 11252
+   ↳ CrossOver Between: 10452 | 9841 | Child: 10984
+   ↳ CrossOver Between: 9825 | 11196 | Child: 12227
+   ↳ CrossOver Between: 9841 | 12537 | Child: 11956
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+      ↳ Mutation: 10452 -> 10637 | (x,y) => (13,13) -> (31,32)
+   ↳ CrossOver Between: 13400 | 10452 | Child: 12101
+   ↳ CrossOver Between: 11196 | 11196 | Child: 11196
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11515 | 9841 | Child: 10334
+      ↳ Mutation: 10334 -> 10257 | (x,y) => (13,13) -> (31,32)
+   ↳ CrossOver Between: 9825 | 13066 | Child: 12475
+      ↳ Mutation: 12475 -> 12013 | (x,y) => (13,13) -> (31,32)
+   ↳ CrossOver Between: 11196 | 9825 | Child: 10452
+   ↳ CrossOver Between: 11781 | 10452 | Child: 11252
+   ↳ CrossOver Between: 11196 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 14199 | Child: 10984
+   ↳ CrossOver Between: 9825 | 10987 | Child: 11712
+   ↳ CrossOver Between: 10452 | 13400 | Child: 11529
+   ↳ CrossOver Between: 10452 | 11196 | Child: 11196
+   ↳ CrossOver Between: 14199 | 11515 | Child: 11515
+   ↳ CrossOver Between: 14199 | 11785 | Child: 11541
+      ↳ Mutation: 11541 -> 11564 | (x,y) => (17,33) -> (31,32)
+⟿Time elapsed this generation: 9ms
+Iteration: 8 NodeCount: 20 FacilityCount: 3 BestFitness: 9825.35517094298
+   ↳ CrossOver Between: 9825 | 11252 | Child: 9825
+   ↳ CrossOver Between: 10452 | 11196 | Child: 10452
+   ↳ CrossOver Between: 10452 | 9825 | Child: 9825
+   ↳ CrossOver Between: 10452 | 12227 | Child: 9825
+   ↳ CrossOver Between: 10637 | 11564 | Child: 11564
+   ↳ CrossOver Between: 10637 | 10452 | Child: 11564
+   ↳ CrossOver Between: 11956 | 10452 | Child: 12537
+   ↳ CrossOver Between: 10452 | 10637 | Child: 11564
+   ↳ CrossOver Between: 9825 | 10257 | Child: 11564
+   ↳ CrossOver Between: 10452 | 11252 | Child: 9825
+   ↳ CrossOver Between: 11529 | 10257 | Child: 11261
+   ↳ CrossOver Between: 10637 | 10637 | Child: 10637
+   ↳ CrossOver Between: 11529 | 10637 | Child: 11261
+   ↳ CrossOver Between: 9825 | 10452 | Child: 10452
+   ↳ CrossOver Between: 11529 | 10452 | Child: 11529
+   ↳ CrossOver Between: 12227 | 11564 | Child: 13568
+   ↳ CrossOver Between: 10984 | 9825 | Child: 12475
+   ↳ CrossOver Between: 10257 | 9825 | Child: 11865
+   ↳ CrossOver Between: 10984 | 9825 | Child: 12475
+   ↳ CrossOver Between: 12227 | 10452 | Child: 11196
+⟿Time elapsed this generation: 9ms
+Iteration: 9 NodeCount: 20 FacilityCount: 3 BestFitness: 9825.35517094298
+   ↳ CrossOver Between: 11564 | 11564 | Child: 11564
+   ↳ CrossOver Between: 11196 | 9825 | Child: 10452
+   ↳ CrossOver Between: 11564 | 9825 | Child: 9825
+   ↳ CrossOver Between: 12475 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11529 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 9825 | Child: 10452
+   ↳ CrossOver Between: 11529 | 9825 | Child: 10452
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 12475 | Child: 12475
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 11564 | 11865 | Child: 11865
+   ↳ CrossOver Between: 11564 | 11564 | Child: 11564
+   ↳ CrossOver Between: 9825 | 10452 | Child: 9825
+   ↳ CrossOver Between: 11564 | 11196 | Child: 11196
+   ↳ CrossOver Between: 9825 | 10452 | Child: 9825
+   ↳ CrossOver Between: 9825 | 10637 | Child: 10198
+   ↳ CrossOver Between: 9825 | 11564 | Child: 10198
+   ↳ CrossOver Between: 11564 | 13568 | Child: 13568
+   ↳ CrossOver Between: 9825 | 11865 | Child: 12013
+   ↳ CrossOver Between: 9825 | 10452 | Child: 9825
+⟿Time elapsed this generation: 9ms
+Iteration: 10 NodeCount: 20 FacilityCount: 3 BestFitness: 9825.35517094298
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 10198 | 10198 | Child: 10198
+   ↳ CrossOver Between: 9825 | 12013 | Child: 11865
+      ↳ Mutation: 11865 -> 14778 | (x,y) => (31,32) -> (10,17)
+   ↳ CrossOver Between: 10452 | 9825 | Child: 9825
+   ↳ CrossOver Between: 10198 | 11865 | Child: 10355
+   ↳ CrossOver Between: 9825 | 10452 | Child: 10452
+   ↳ CrossOver Between: 9825 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 13568 | 9825 | Child: 11541
+   ↳ CrossOver Between: 10198 | 9825 | Child: 11564
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 10452 | 10198 | Child: 11564
+   ↳ CrossOver Between: 13568 | 9825 | Child: 11541
+   ↳ CrossOver Between: 9825 | 10452 | Child: 10452
+   ↳ CrossOver Between: 9825 | 12013 | Child: 11865
+   ↳ CrossOver Between: 9825 | 11564 | Child: 11564
+   ↳ CrossOver Between: 12013 | 9825 | Child: 11564
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+⟿Time elapsed this generation: 10ms
+Iteration: 11 NodeCount: 20 FacilityCount: 3 BestFitness: 9825.35517094298
+   ↳ CrossOver Between: 11865 | 9825 | Child: 12475
+   ↳ CrossOver Between: 11564 | 11541 | Child: 11541
+   ↳ CrossOver Between: 10355 | 9825 | Child: 12475
+   ↳ CrossOver Between: 11541 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 14778 | 10452 | Child: 10984
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11865 | 9825 | Child: 12475
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 10198 | 10452 | Child: 10452
+      ↳ Mutation: 10452 -> 10766 | (x,y) => (38,46) -> (32,39)
+   ↳ CrossOver Between: 10452 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 10452 | Child: 10452
+   ↳ CrossOver Between: 9825 | 10198 | Child: 10198
+   ↳ CrossOver Between: 11564 | 11541 | Child: 11541
+   ↳ CrossOver Between: 10452 | 11564 | Child: 11564
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 14778 | Child: 14027
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 10452 | Child: 10452
+⟿Time elapsed this generation: 9ms
+Iteration: 12 NodeCount: 20 FacilityCount: 3 BestFitness: 9825.35517094298
+   ↳ CrossOver Between: 11564 | 10452 | Child: 10452
+      ↳ Mutation: 10452 -> 11587 | (x,y) => (52,33) -> (30,40)
+   ↳ CrossOver Between: 10452 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11564 | 9825 | Child: 9825
+   ↳ CrossOver Between: 10766 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11541 | 11541 | Child: 11541
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 12475 | 9825 | Child: 11422
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11541 | 11541 | Child: 11541
+   ↳ CrossOver Between: 11564 | 9825 | Child: 9825
+   ↳ CrossOver Between: 10452 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 10452 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 11541 | Child: 11541
+   ↳ CrossOver Between: 9825 | 12475 | Child: 11422
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 10198 | 10452 | Child: 10452
+   ↳ CrossOver Between: 9825 | 12475 | Child: 11422
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+⟿Time elapsed this generation: 10ms
+Iteration: 13 NodeCount: 20 FacilityCount: 3 BestFitness: 9825.35517094298
+   ↳ CrossOver Between: 11541 | 11422 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11587 | 9825 | Child: 12194
+   ↳ CrossOver Between: 11422 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 11587 | Child: 12939
+   ↳ CrossOver Between: 11541 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 10452 | Child: 11529
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11587 | 11541 | Child: 12939
+   ↳ CrossOver Between: 10452 | 9825 | Child: 11529
+   ↳ CrossOver Between: 10452 | 9825 | Child: 11529
+   ↳ CrossOver Between: 11587 | 9825 | Child: 12194
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11541 | 11422 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11587 | 11541 | Child: 12939
+⟿Time elapsed this generation: 10ms
+Iteration: 14 NodeCount: 20 FacilityCount: 3 BestFitness: 9825.35517094298
+   ↳ CrossOver Between: 9825 | 11529 | Child: 11529
+   ↳ CrossOver Between: 9825 | 12939 | Child: 12626
+   ↳ CrossOver Between: 11529 | 11529 | Child: 11529
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11529 | 12194 | Child: 11587
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11529 | 9825 | Child: 12051
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 12194 | 9825 | Child: 11188
+   ↳ CrossOver Between: 11529 | 9825 | Child: 12051
+   ↳ CrossOver Between: 11529 | 12194 | Child: 11587
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 11529 | Child: 11529
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+      ↳ Mutation: 9825 -> 12082 | (x,y) => (30,48) -> (7,38)
+      ↳ Mutation: 12082 -> 12082 | (x,y) => (7,38) -> (7,38)
+   ↳ CrossOver Between: 12939 | 12939 | Child: 12939
+   ↳ CrossOver Between: 9825 | 12939 | Child: 12626
+   ↳ CrossOver Between: 11529 | 11529 | Child: 11529
+⟿Time elapsed this generation: 9ms
+Iteration: 15 NodeCount: 20 FacilityCount: 3 BestFitness: 9825.35517094298
+   ↳ CrossOver Between: 11188 | 11188 | Child: 11188
+   ↳ CrossOver Between: 11587 | 11529 | Child: 11529
+   ↳ CrossOver Between: 11587 | 9825 | Child: 10452
+   ↳ CrossOver Between: 9825 | 11587 | Child: 10452
+   ↳ CrossOver Between: 12051 | 9825 | Child: 9825
+   ↳ CrossOver Between: 12082 | 11587 | Child: 10452
+      ↳ Mutation: 10452 -> 10641 | (x,y) => (52,33) -> (58,27)
+   ↳ CrossOver Between: 9825 | 11188 | Child: 9825
+   ↳ CrossOver Between: 11529 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 12626 | 11188 | Child: 9905
+   ↳ CrossOver Between: 12939 | 11529 | Child: 12227
+   ↳ CrossOver Between: 12626 | 9825 | Child: 9905
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 12939 | Child: 11541
+   ↳ CrossOver Between: 12939 | 12051 | Child: 11541
+   ↳ CrossOver Between: 11529 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 11188 | Child: 9825
+   ↳ CrossOver Between: 11529 | 11529 | Child: 11529
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+⟿Time elapsed this generation: 9ms
+Iteration: 16 NodeCount: 20 FacilityCount: 3 BestFitness: 9825.35517094298
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 10452 | 9825 | Child: 11529
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11529 | 9825 | Child: 11529
+   ↳ CrossOver Between: 11541 | 9825 | Child: 12227
+   ↳ CrossOver Between: 9825 | 10641 | Child: 10641
+   ↳ CrossOver Between: 10641 | 9825 | Child: 10225
+   ↳ CrossOver Between: 11529 | 9905 | Child: 11735
+   ↳ CrossOver Between: 9825 | 11529 | Child: 11529
+      ↳ Mutation: 11529 -> 13280 | (x,y) => (13,13) -> (62,63)
+   ↳ CrossOver Between: 9905 | 9825 | Child: 12227
+   ↳ CrossOver Between: 11188 | 11529 | Child: 12939
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 9825 | 10452 | Child: 11529
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11541 | 10452 | Child: 11196
+   ↳ CrossOver Between: 11529 | 9825 | Child: 11529
+   ↳ CrossOver Between: 11541 | 9825 | Child: 12227
+   ↳ CrossOver Between: 11188 | 9825 | Child: 12194
+   ↳ CrossOver Between: 10452 | 9825 | Child: 11529
+⟿Time elapsed this generation: 10ms
+Iteration: 17 NodeCount: 20 FacilityCount: 3 BestFitness: 9825.35517094298
+   ↳ CrossOver Between: 11196 | 12227 | Child: 11529
+   ↳ CrossOver Between: 10641 | 11735 | Child: 11529
+   ↳ CrossOver Between: 10225 | 11529 | Child: 12311
+   ↳ CrossOver Between: 9825 | 13280 | Child: 13280
+   ↳ CrossOver Between: 9825 | 11529 | Child: 12051
+   ↳ CrossOver Between: 11196 | 11529 | Child: 11735
+   ↳ CrossOver Between: 10452 | 11529 | Child: 12051
+   ↳ CrossOver Between: 11529 | 11529 | Child: 11529
+   ↳ CrossOver Between: 11529 | 9825 | Child: 11529
+   ↳ CrossOver Between: 9825 | 11529 | Child: 12051
+   ↳ CrossOver Between: 12227 | 9825 | Child: 12227
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 13280 | 10641 | Child: 12517
+      ↳ Mutation: 12517 -> 12121 | (x,y) => (62,63) -> (8,52)
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 12194 | 10641 | Child: 11571
+   ↳ CrossOver Between: 12227 | 10452 | Child: 11529
+   ↳ CrossOver Between: 10452 | 12227 | Child: 11529
+   ↳ CrossOver Between: 10452 | 9825 | Child: 11529
+   ↳ CrossOver Between: 11529 | 11529 | Child: 11529
+   ↳ CrossOver Between: 12939 | 13280 | Child: 12387
+⟿Time elapsed this generation: 11ms
+Iteration: 18 NodeCount: 20 FacilityCount: 3 BestFitness: 9825.35517094298
+   ↳ CrossOver Between: 11529 | 9825 | Child: 10452
+   ↳ CrossOver Between: 11529 | 11571 | Child: 10641
+   ↳ CrossOver Between: 11529 | 9825 | Child: 10452
+   ↳ CrossOver Between: 11529 | 11529 | Child: 11529
+   ↳ CrossOver Between: 12051 | 11529 | Child: 10452
+   ↳ CrossOver Between: 11529 | 12051 | Child: 10452
+   ↳ CrossOver Between: 11529 | 11529 | Child: 11529
+   ↳ CrossOver Between: 11529 | 11529 | Child: 11529
+   ↳ CrossOver Between: 11735 | 11529 | Child: 11196
+      ↳ Mutation: 11196 -> 10888 | (x,y) => (17,33) -> (58,48)
+   ↳ CrossOver Between: 11529 | 11529 | Child: 11529
+   ↳ CrossOver Between: 11735 | 11529 | Child: 11196
+   ↳ CrossOver Between: 11529 | 11529 | Child: 11529
+   ↳ CrossOver Between: 11529 | 11529 | Child: 11529
+      ↳ Mutation: 11529 -> 12739 | (x,y) => (13,13) -> (58,48)
+   ↳ CrossOver Between: 11529 | 11529 | Child: 11529
+   ↳ CrossOver Between: 11529 | 11529 | Child: 11529
+   ↳ CrossOver Between: 11529 | 11529 | Child: 11529
+   ↳ CrossOver Between: 11529 | 12051 | Child: 10452
+   ↳ CrossOver Between: 12051 | 11529 | Child: 10452
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 11529 | 11571 | Child: 10641
+⟿Time elapsed this generation: 9ms
+Iteration: 19 NodeCount: 20 FacilityCount: 3 BestFitness: 9825.35517094298
+   ↳ CrossOver Between: 10452 | 9825 | Child: 11529
+   ↳ CrossOver Between: 11196 | 11529 | Child: 11529
+   ↳ CrossOver Between: 11529 | 10641 | Child: 12311
+   ↳ CrossOver Between: 9825 | 11529 | Child: 11529
+   ↳ CrossOver Between: 12739 | 10888 | Child: 12739
+   ↳ CrossOver Between: 10641 | 10641 | Child: 10641
+   ↳ CrossOver Between: 9825 | 11529 | Child: 11529
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10641 | 10641 | Child: 10641
+   ↳ CrossOver Between: 12739 | 10452 | Child: 10888
+   ↳ CrossOver Between: 9825 | 11529 | Child: 11529
+   ↳ CrossOver Between: 10641 | 11529 | Child: 12311
+   ↳ CrossOver Between: 10452 | 10888 | Child: 10888
+   ↳ CrossOver Between: 11529 | 9825 | Child: 11529
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 11196 | 10452 | Child: 11196
+   ↳ CrossOver Between: 9825 | 10452 | Child: 11529
+   ↳ CrossOver Between: 10641 | 12739 | Child: 12445
+   ↳ CrossOver Between: 10641 | 11529 | Child: 12311
+   ↳ CrossOver Between: 10452 | 11196 | Child: 10452
+⟿Time elapsed this generation: 10ms
+Iteration: 20 NodeCount: 20 FacilityCount: 3 BestFitness: 10452.3375940437
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10888 | 10641 | Child: 10641
+   ↳ CrossOver Between: 10452 | 12739 | Child: 12051
+   ↳ CrossOver Between: 10452 | 11529 | Child: 10452
+   ↳ CrossOver Between: 10888 | 10452 | Child: 10452
+   ↳ CrossOver Between: 11529 | 12311 | Child: 11529
+   ↳ CrossOver Between: 10641 | 10452 | Child: 10452
+   ↳ CrossOver Between: 11529 | 11196 | Child: 11196
+   ↳ CrossOver Between: 10452 | 10641 | Child: 10452
+   ↳ CrossOver Between: 10641 | 11196 | Child: 11196
+   ↳ CrossOver Between: 11529 | 12739 | Child: 11529
+   ↳ CrossOver Between: 11529 | 10888 | Child: 10888
+   ↳ CrossOver Between: 10888 | 10888 | Child: 10888
+   ↳ CrossOver Between: 12311 | 10641 | Child: 11529
+   ↳ CrossOver Between: 10888 | 10452 | Child: 10452
+   ↳ CrossOver Between: 12311 | 10452 | Child: 12051
+      ↳ Mutation: 12051 -> 11312 | (x,y) => (38,46) -> (52,64)
+   ↳ CrossOver Between: 12311 | 12311 | Child: 12311
+   ↳ CrossOver Between: 10641 | 10452 | Child: 10452
+   ↳ CrossOver Between: 11196 | 10641 | Child: 11196
+   ↳ CrossOver Between: 10452 | 10641 | Child: 10452
+⟿Time elapsed this generation: 9ms
+Iteration: 21 NodeCount: 20 FacilityCount: 3 BestFitness: 10452.3375940437
+   ↳ CrossOver Between: 10452 | 12311 | Child: 11529
+   ↳ CrossOver Between: 10452 | 10641 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 12051 | 11196 | Child: 11735
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10888 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10641 | 12051 | Child: 13016
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 12311 | Child: 11529
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10641 | 10641 | Child: 10641
+   ↳ CrossOver Between: 10888 | 10452 | Child: 12353
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10641 | 10452 | Child: 13016
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 11529 | 10452 | Child: 12051
+⟿Time elapsed this generation: 9ms
+Iteration: 22 NodeCount: 20 FacilityCount: 3 BestFitness: 10452.3375940437
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 11735 | 12353 | Child: 10708
+   ↳ CrossOver Between: 11529 | 10452 | Child: 11529
+   ↳ CrossOver Between: 13016 | 10452 | Child: 10452
+   ↳ CrossOver Between: 12353 | 13016 | Child: 13016
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 11529 | Child: 12051
+   ↳ CrossOver Between: 10641 | 10452 | Child: 10641
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 11529 | Child: 12051
+      ↳ Mutation: 12051 -> 11657 | (x,y) => (38,46) -> (25,55)
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 11529 | Child: 12051
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+      ↳ Mutation: 10452 -> 9593 | (x,y) => (38,46) -> (25,55)
+   ↳ CrossOver Between: 10452 | 12051 | Child: 12051
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+⟿Time elapsed this generation: 10ms
+Iteration: 23 NodeCount: 20 FacilityCount: 3 BestFitness: 9593.7642724902
+   ↳ CrossOver Between: 13016 | 9593 | Child: 10176
+   ↳ CrossOver Between: 10708 | 10452 | Child: 10888
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10708 | Child: 10888
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10708 | Child: 10888
+   ↳ CrossOver Between: 10452 | 12051 | Child: 11529
+   ↳ CrossOver Between: 12051 | 10452 | Child: 11529
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 12051 | Child: 11529
+   ↳ CrossOver Between: 10708 | 10641 | Child: 12445
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 11657 | Child: 12413
+   ↳ CrossOver Between: 10452 | 11657 | Child: 12413
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10708 | Child: 10888
+⟿Time elapsed this generation: 11ms
+Iteration: 24 NodeCount: 20 FacilityCount: 3 BestFitness: 10176.4445849825
+   ↳ CrossOver Between: 10452 | 12413 | Child: 11529
+   ↳ CrossOver Between: 10452 | 10176 | Child: 10641
+   ↳ CrossOver Between: 10452 | 10888 | Child: 10888
+   ↳ CrossOver Between: 10176 | 12413 | Child: 12413
+   ↳ CrossOver Between: 10452 | 10888 | Child: 10888
+   ↳ CrossOver Between: 10888 | 10452 | Child: 10452
+      ↳ Mutation: 10452 -> 9825 | (x,y) => (38,46) -> (30,48)
+      ↳ Mutation: 9825 -> 9825 | (x,y) => (30,48) -> (30,48)
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 12445 | 10452 | Child: 14159
+   ↳ CrossOver Between: 10452 | 12413 | Child: 9825
+   ↳ CrossOver Between: 10176 | 12413 | Child: 10225
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 10888 | Child: 12537
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 11529 | Child: 9825
+   ↳ CrossOver Between: 12413 | 10452 | Child: 9825
+   ↳ CrossOver Between: 11529 | 10452 | Child: 9825
+   ↳ CrossOver Between: 10176 | 11529 | Child: 10225
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10888 | 10452 | Child: 12537
+   ↳ CrossOver Between: 10452 | 11529 | Child: 9825
+⟿Time elapsed this generation: 10ms
+Iteration: 25 NodeCount: 20 FacilityCount: 3 BestFitness: 9825.35517094298
+   ↳ CrossOver Between: 10452 | 10452 | Child: 10452
+   ↳ CrossOver Between: 10452 | 9825 | Child: 12051
+   ↳ CrossOver Between: 11529 | 10452 | Child: 10452
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 14159 | Child: 12125
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 10225 | 9825 | Child: 14159
+   ↳ CrossOver Between: 14159 | 9825 | Child: 12125
+   ↳ CrossOver Between: 12413 | 9825 | Child: 9593
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 10888 | 10452 | Child: 10452
+   ↳ CrossOver Between: 12537 | 12413 | Child: 12537
+   ↳ CrossOver Between: 9825 | 12413 | Child: 9825
+   ↳ CrossOver Between: 10452 | 14159 | Child: 13016
+   ↳ CrossOver Between: 10452 | 12537 | Child: 12353
+   ↳ CrossOver Between: 9825 | 9825 | Child: 9825
+   ↳ CrossOver Between: 14159 | 9825 | Child: 12125
+   ↳ CrossOver Between: 10225 | 9825 | Child: 14159
+   ↳ CrossOver Between: 9825 | 10452 | Child: 12051
+⟿Time elapsed this generation: 11ms
+⟿Time elapsed this generation: 8ms
+Process Complete!
+Avarage Best Fitness: 126419.333085628
+Difference: 116825.568813138
+Best Fitness: 9593.7642724902
