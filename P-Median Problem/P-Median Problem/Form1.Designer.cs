@@ -57,20 +57,14 @@
             this.nudDelay = new System.Windows.Forms.NumericUpDown();
             this.cbLogger = new System.Windows.Forms.CheckBox();
             this.cbKeepMap = new System.Windows.Forms.CheckBox();
-            this.delay_timer = new System.Windows.Forms.Timer(this.components);
             this.rtb_log = new System.Windows.Forms.RichTextBox();
-            this.lb_Status = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.nud_SelectionDifference = new System.Windows.Forms.NumericUpDown();
             this.label7 = new System.Windows.Forms.Label();
             this.nud_SelectionDifferenceHigh = new System.Windows.Forms.NumericUpDown();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.ataOrucToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.duyguCesurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.esraSözmenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.delay_timer = new System.Windows.Forms.Timer(this.components);
+            this.lb_Status = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nud_Mutation_Rate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_Max_Iterations)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_Number_of_Facilities)).BeginInit();
@@ -80,7 +74,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDelay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_SelectionDifference)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_SelectionDifferenceHigh)).BeginInit();
-            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // nud_Mutation_Rate
@@ -443,11 +436,6 @@
             this.cbKeepMap.UseVisualStyleBackColor = true;
             this.cbKeepMap.CheckedChanged += new System.EventHandler(this.cbKeepMap_CheckedChanged);
             // 
-            // delay_timer
-            // 
-            this.delay_timer.Interval = 500;
-            this.delay_timer.Tick += new System.EventHandler(this.delay_timer_Tick);
-            // 
             // rtb_log
             // 
             this.rtb_log.BackColor = System.Drawing.Color.FloralWhite;
@@ -460,16 +448,6 @@
             this.rtb_log.TabIndex = 30;
             this.rtb_log.Text = "";
             this.Tool_Tip.SetToolTip(this.rtb_log, "Console for logging actions by the algorithm.");
-            // 
-            // lb_Status
-            // 
-            this.lb_Status.AutoSize = true;
-            this.lb_Status.BackColor = System.Drawing.Color.Cornsilk;
-            this.lb_Status.Location = new System.Drawing.Point(135, 8);
-            this.lb_Status.Name = "lb_Status";
-            this.lb_Status.Size = new System.Drawing.Size(24, 13);
-            this.lb_Status.TabIndex = 32;
-            this.lb_Status.Text = "Idle";
             // 
             // label9
             // 
@@ -528,51 +506,20 @@
             0,
             0});
             // 
-            // toolStrip1
+            // delay_timer
             // 
-            this.toolStrip1.BackColor = System.Drawing.Color.Cornsilk;
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripLabel1});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(895, 25);
-            this.toolStrip1.TabIndex = 37;
-            this.toolStrip1.Text = "toolStrip1";
+            this.delay_timer.Interval = 500;
+            this.delay_timer.Tick += new System.EventHandler(this.delay_timer_Tick);
             // 
-            // toolStripLabel1
+            // lb_Status
             // 
-            this.toolStripLabel1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ataOrucToolStripMenuItem,
-            this.duyguCesurToolStripMenuItem,
-            this.esraSözmenToolStripMenuItem,
-            this.toolStripMenuItem2});
-            this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(85, 22);
-            this.toolStripLabel1.Text = "Student Info";
-            // 
-            // ataOrucToolStripMenuItem
-            // 
-            this.ataOrucToolStripMenuItem.Name = "ataOrucToolStripMenuItem";
-            this.ataOrucToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.ataOrucToolStripMenuItem.Text = "Ata Oruc";
-            // 
-            // duyguCesurToolStripMenuItem
-            // 
-            this.duyguCesurToolStripMenuItem.Name = "duyguCesurToolStripMenuItem";
-            this.duyguCesurToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.duyguCesurToolStripMenuItem.Text = "Duygu Cesur";
-            // 
-            // esraSözmenToolStripMenuItem
-            // 
-            this.esraSözmenToolStripMenuItem.Name = "esraSözmenToolStripMenuItem";
-            this.esraSözmenToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.esraSözmenToolStripMenuItem.Text = "Esra Sözmen";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem2.Text = "18.01.2018";
+            this.lb_Status.AutoSize = true;
+            this.lb_Status.BackColor = System.Drawing.Color.Cornsilk;
+            this.lb_Status.Location = new System.Drawing.Point(135, 8);
+            this.lb_Status.Name = "lb_Status";
+            this.lb_Status.Size = new System.Drawing.Size(24, 13);
+            this.lb_Status.TabIndex = 32;
+            this.lb_Status.Text = "Idle";
             // 
             // Form1
             // 
@@ -588,7 +535,6 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.lb_Iteration_Count);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.nud_SelectionDifferenceHigh);
             this.Controls.Add(this.label4);
@@ -630,8 +576,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDelay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_SelectionDifference)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_SelectionDifferenceHigh)).EndInit();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -674,12 +618,6 @@
         private System.Windows.Forms.NumericUpDown nud_SelectionDifference;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.NumericUpDown nud_SelectionDifferenceHigh;
-        private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripDropDownButton toolStripLabel1;
-        private System.Windows.Forms.ToolStripMenuItem ataOrucToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem duyguCesurToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem esraSözmenToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
     }
 }
 
